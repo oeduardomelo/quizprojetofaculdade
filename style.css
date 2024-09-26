@@ -1,0 +1,82 @@
+body {
+    font-family: Arial, sans-serif;
+    background-image: url(https://img.freepik.com/vetores-gratis/fundo-de-formas-abstratas-em-aquarela_52683-72135.jpg?t=st=1726752214~exp=1726755814~hmac=1d54adf5995d6b06fd6c30ecd0ba26c09708034877310b04c6326dae3936e9f9&w=740);
+    margin: 0;
+    padding: 0;
+}
+
+.quiz-container, .result-container {
+    background-color: #fff;
+    padding: 20px 30px;
+    margin: 50px auto;
+    border-radius: 10px;
+    box-shadow: 0 0 10px rgba(0,0,0,0.1);
+    max-width: 800px;
+}
+
+h1, h2 {
+    text-align: center;
+    color: #b51409;
+}
+
+.input-group {
+    margin-bottom: 20px;
+}
+
+label {
+    display: block;
+    margin-bottom: 10px;
+}
+
+input[type="text"] {
+    width: 100%;
+    padding: 8px;
+    margin-top: 5px;
+    box-sizing: border-box;
+}
+
+button {
+    background-color: #b51409;
+    color: white;
+    padding: 12px 20px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    display: block;
+    width: 100%;
+    font-size: 16px;
+}
+
+button:hover {
+    background-color: #ea490c;
+}
+
+.question {
+    margin-bottom: 20px;
+}
+
+table {
+    width: 100%;
+    border-collapse: collapse;
+    margin-top: 20px;
+}
+
+table, th, td {
+    border: 1px solid #ddd;
+}
+
+th, td {
+    padding: 12px;
+    text-align: center;
+}
+
+th {
+    background-color: #ea490c;
+    color: white;
+}
+
+#resultado-jogador {
+    font-size: 20px;
+    text-align: center;
+    margin-bottom: 20px;
+}
